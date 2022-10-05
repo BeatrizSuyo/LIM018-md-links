@@ -62,25 +62,25 @@ function findLinks(route){
   return arrayLinks;
 }
    //console.log('almacena los links y textos en un arreglo',findLinks(routeValidateLong));
-   function getArrayObj(arrayLinks, route){
+function getArrayObj(arrayLinks, route) {
   const arrayObjetos = [];
-  if(arrayLinks.length >0) {
-    for(let i=0; i<arrayLinks.length; i++){
+  if (arrayLinks.length > 0) {
+    for (let i = 0; i < arrayLinks.length; i++) {
       const indexCut = arrayLinks[i].indexOf(']');
-      const textLink = arrayLinks[i].slice(1,indexCut);
-      const urlLink = arrayLinks[i].slice(indexCut +2,-1);
+      const textLink = arrayLinks[i].slice(1, indexCut);
+      const urlLink = arrayLinks[i].slice(indexCut + 2, -1);
       const objetoLink = {
         text: textLink,
         href: urlLink,
         file: route
       };
-       arrayObjetos.push(objetoLink);
-       //console.log('muestra array de objetos',arrayObjetos);//devuelve array de objetos,iterando  
+      arrayObjetos.push(objetoLink);
+      //console.log('muestra array de objetos',arrayObjetos);//devuelve array de objetos,iterando  
     }
-     return arrayObjetos;
+    return arrayObjetos;
   }
-    return 'el array esta vacio';
- }
+  return 'el array esta vacio';
+}
    // console.log(getArrayObj(findLinks(routeValidateLong),routeValidateLong));//devuelve arary de objetos
    
     //peticion http

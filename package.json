@@ -1,1 +1,6 @@
-{"name":"md-links","version":"1.0","scripts":{"start":"node index.js"},"dependencies":{"axios":"^0.27.2"}}
+{"name":"md-links","version":"1.0",
+"scripts":{"start":"node index.js",
+            "test": "jest --coverage"},
+"dependencies":{"axios":"^0.27.2"},
+"devDependencies":{"jest":"^29.1.2"}
+}
