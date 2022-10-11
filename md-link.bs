@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-11T02:26:48.434Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="KNr7WdGFU2ZKYnv6G7Jw" version="20.4.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-10-11T02:27:19.486Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="HvvatKHMqJPyS8oWpteQ" version="20.4.0" type="github" pages="3">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="868" dy="450" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1320" dy="484" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -113,17 +113,8 @@
         <mxCell id="_5FLAi4En4HyqK09qlQe-92" value="recorremos el array que contiene links y textos" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F694C1;strokeColor=#AF45ED;fontColor=#095C86;" parent="1" vertex="1">
           <mxGeometry x="254.5" y="977" width="145" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="_5FLAi4En4HyqK09qlQe-94" value="opción VALIDATE &lt;br&gt;es true?" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#AF45ED;fillColor=#F694C1;fontColor=#095C86;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="967" y="2244" width="160" height="133" as="geometry" />
-        </mxCell>
         <mxCell id="_5FLAi4En4HyqK09qlQe-95" value="retorna array de objetos" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F694C1;strokeColor=#AF45ED;fontColor=#095C86;" parent="1" vertex="1">
           <mxGeometry x="257.75" y="1536" width="145" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="_5FLAi4En4HyqK09qlQe-97" value="" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#AF45ED;fillColor=#F694C1;fontColor=#095C86;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="966" y="2550" width="154" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="_5FLAi4En4HyqK09qlQe-98" value="&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientDirection=north;fontStyle=0;html=1;fillColor=#F694C1;strokeColor=#AF45ED;fontColor=#095C86;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="961" y="2453" width="159" height="80" as="geometry" />
         </mxCell>
         <mxCell id="_5FLAi4En4HyqK09qlQe-99" value="con &lt;b&gt;then&lt;/b&gt; ,retornamos&amp;nbsp; &lt;br&gt;obj&amp;nbsp;&lt;b&gt;{&lt;/b&gt; href,text,file,status&lt;br&gt;,message &lt;b&gt;}&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F694C1;strokeColor=#AF45ED;fontColor=#095C86;" parent="1" vertex="1">
           <mxGeometry x="273" y="2223" width="145" height="80" as="geometry" />
@@ -299,9 +290,6 @@
         </mxCell>
         <mxCell id="AfZKnp40M2995t23J7Dn-44" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;DIAGRAMA&amp;nbsp; FUNCIONES API&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#095C86;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="518" y="40.5" width="350" height="41" as="geometry" />
-        </mxCell>
-        <mxCell id="hR61R4p7w2tLUrdRlONP-45" value="&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F694C1;strokeColor=#AF45ED;fontColor=#095C86;" parent="1" vertex="1">
-          <mxGeometry x="978" y="2387" width="145" height="54" as="geometry" />
         </mxCell>
         <mxCell id="hR61R4p7w2tLUrdRlONP-47" value="fin" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#F694C1;strokeColor=#AF45ED;fontColor=#095C86;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="314" y="2610" width="71" height="71" as="geometry" />
