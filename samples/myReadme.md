@@ -10,9 +10,9 @@ Para que el módulo sea instalable desde GitHub solo tiene que:
 * Contener un `package.json` válido
 
 Con el comando `npm install githubname/reponame` podemos instalar directamente
-desde GitHub. Ver [docs oficiales de `npm install` acá](https://docs.npmjs.com/cli/install).
+desde GitHub. Ver [docs oficiales de `npm install`](https://docs.npmjs.com/cli/install).
 
-Por ejemplo, el [`course-parser`](https://github.com/Laboratoria/course-parser)
+Por ejemplo, el [`course-parser`](https://github.com/Laboratoria/cccccccourse-parser)
 que usamos para la currícula no está publicado en el registro público de NPM,
 así que lo instalamos directamente desde GitHub con el comando `npm install
 Laboratoria/course-parser`.
@@ -35,10 +35,5 @@ links podría plantearse de las siguientes maneras (todas válidas):
 * También podríamos usar una combinación de varios _módulos_ (podría ser válido
   transformar el markdown a HTML usando algo como [marked](https://github.com/markedjs/marked)
   y de ahí extraer los link con una librería de DOM como [JSDOM](https://github.com/jsdom/jsdom)
-  o [Cheerio](https://github.com/cheeriojs/cheerio) entre otras).
+  o [Cheerio](https://github.com/cheeriojs/cheerio).
 * Usando un _custom renderer_ de [marked](https://github.com/markedjs/marked)
-  (`new marked.Renderer()`).
-
-No dudes en consultar a tus compañeras, coaches y/o el [foro de la comunidad](http://community.laboratoria.la/c/js)
-si tienes dudas existenciales con respecto a estas decisiones. No existe una
-"única" manera correcta.
